@@ -160,12 +160,12 @@
             <div class="grid coluna-1 form-grid">
                 <div class="formulario" id="formulario">
                     <form action="https://api.staticforms.xyz/submit" method="post">
-                        <div><label for="nome"></label><input type="text" name="$Nome:" placeholder="Nome:" class="fnome"></div>
-                        <div><label for="email"></label><input name="$Email:" placeholder="Email:" type="email"></div>
+                        <div><label for="nome"></label><input type="text" name="$Nome:" placeholder="Nome:" class="fnome" required></div>
+                        <div><label for="email"></label><input name="$Email:" placeholder="Email:" type="email" required></div>
                         <div><label for="celular"></label><input name="$Numero" placeholder="Número de contato:" type="tel"></div>
-                        <div><label for="texto"></label><textarea name="$Mensagem:" id="ftexto" placeholder="Escreva aqui sua mensagem." cols="30" rows="3"></textarea></div>
+                        <div><label for="texto"></label><textarea name="$Mensagem:" id="ftexto" placeholder="Escreva aqui sua mensagem." cols="30" rows="3" required></textarea></div>
                         <input type="hidden" name="accessKey" value="b06c63b1-c669-4abe-a709-9dba2becdac2">
-                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html#contato">
+                        <input type="hidden" name="redirectTo" value="https://azuosramon.github.io/mapa-pe-web/#contato">
                         <input type="text" name="honeypot" style="display: none;">
                         <div class="botao"><button type="submit">Enviar</button></div>
                     </form>
