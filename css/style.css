@@ -1,0 +1,161 @@
+:root {
+    --verde: #10a37e;
+    --verde2: #10a34d;
+    --verde3: #10a31b;
+    --verde4: #19fac2;
+    --verde5: #15d1a2;
+    --verde6: #0d8063;
+    --verde7: #095743;
+    --azul: #1097a3;
+    --azul2: #1069a3;
+    --vermelhoescuro: #43120f;
+    --laranja: #e03c31;
+    --verde-claro: #a7c5bd;
+    --bege: #e5ddcb;
+    --patativa: #524656;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header {
+    
+    #menu {
+        
+        
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        min-height: 80px;
+        max-height: 100px;
+        margin: auto;
+        li {
+            background-color: var(--vermelhoescuro);
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                padding: 10px;
+                color: var(--laranja);
+                font-size: 15px;
+                font-weight: bold;
+                .logotipo {
+                    width: 200px;
+                }
+            }
+        }
+        li:hover {
+            background-color: var(--patativa);
+        }
+    }
+}
+
+main {
+    align-content: center;
+    background-color: var(--bege);
+    color: var(--patativa);
+    text-align: justify;
+    .conteudo {
+        align-content: center;
+        padding: 50px;
+        align-items: center;
+        h1 {
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        h1, ul, img {
+            margin: 20px auto;
+        }
+        img {
+            height: 200px;
+        }
+
+    }
+    .verde5 {
+        background-color: var(--verde-claro);
+        border-top: var(--patativa) 10px solid;
+    }
+    .laranja {
+        background-color: var(--verde-claro);
+    }
+    .branco {
+        background-color: antiquewhite;
+    }
+    .ulmainmissao li{
+        list-style: circle;
+        list-style-position: inside;
+        margin-bottom: 5px;
+    }
+
+}
+
+#atividades {
+    border: 4px dashed var(--patativa);
+    margin: 30px;
+}
+
+#formulario {
+    padding: 10PX;
+    div{
+        margin: 0 auto;
+    }
+    input, textarea {
+        font-weight: bolder;
+        width: 100%;
+        box-sizing: border-box;
+        color: var(--patativa);
+        margin-bottom: 8px;
+        padding: 5px 10px;
+        background-color: var(--bege);
+        border-radius: 5px;
+    }
+    
+}
+button {
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+    align-content: center;
+    box-sizing: border-box;
+    color: var(--patativa);
+    margin: 5px auto;
+    padding: 5px 10px;
+    background-color: var(--bege);
+    border-radius: 5px;
+}
+footer {
+    padding: 2% 3%;
+    background-color: var(--vermelhoescuro);
+    color: var(--bege);
+    div {
+        gap: 20px;
+        img {
+            margin: 0 auto;
+            width: 60%;
+        }
+    }
+    
+    .contato {
+        font-size: 10pt;
+        ul {
+            min-height: 90%;
+            padding: 10px;
+            border: 2px solid var(--bege);
+            li{
+                padding: 10px;
+                display: flex;
+                border-top: 1px solid var(--bege);
+                .negrito{
+                    font-weight: bold;
+                }
+                p {
+                    margin-left: 10px;
+                    
+                }
+            }
+        }
+    }
+}
